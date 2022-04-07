@@ -1,9 +1,7 @@
 import PlacesList from './components/PlacesList';
 import Acceuil from './pages/Acceuil/Acceuil';
 import {BrowserRouter, Routes,Route} from 'react-router-dom';
-import SingleEstablish from './components/singleEstablishement/SingleEstablish';
-import { ThemeProvider } from '@mui/material';
-import { theme } from './components/shared/utils/theme.ts';  
+import SingleEstablish from './components/singleEstablishement/SingleEstablish'; 
 import RegisterForm from './components/RegisterForm';
 import LoginForm from './components/loginForm';
 import Navbar from './components/navbar/Navbar';

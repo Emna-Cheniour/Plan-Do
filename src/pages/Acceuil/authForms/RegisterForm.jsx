@@ -1,6 +1,7 @@
 
 import React, { state, useState } from 'react'
 import axios from 'axios'
+import classes from './auth.module.css';
 
 export default function RegisterForm() {
   const [details, setDetails] = useState({ name: "", email: "", password: "" })
@@ -30,7 +31,7 @@ export default function RegisterForm() {
 
 
   return (
-    <div className='auth'>
+    <div className={classes.auth}>
       <form onSubmit={submitHandler} method='POST'>
         <h2>Page d'enregistrement</h2>
         <div className="form-group">
