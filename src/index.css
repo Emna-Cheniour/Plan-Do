@@ -6,7 +6,13 @@
   font-family:inherit,'Times New Roman', Times, serif;
 }
 
-
+.auth{
+  margin: 20px 100px;
+  width: 800px;
+}
+.auth h4{
+  color: rgb(190, 35, 35);
+}
 /* place previews / list */
 .place-preview {
   padding: 10px 16px;

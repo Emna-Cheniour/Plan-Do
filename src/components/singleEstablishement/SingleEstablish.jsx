@@ -10,8 +10,7 @@ import Contact from '../form/form';
 
 export default function SingleEstablish(){
     return(
-        <div className={classes.singleContainer}>
-            <Navbar />
+        <div className={classes.singleContainer}> 
             <div className={classes.header}>
                 <div className={classes.vl}>
                     <h3>Dar Kenza</h3>
